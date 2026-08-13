@@ -1,5 +1,7 @@
 # The Governance Patch-Gap
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21910874.svg)](https://doi.org/10.5281/zenodo.21910874)
+
 > Legal open texture was always exploitable; the bound was work factor. AI collapses discovery cost while repair stays on a legislative/judicial clock. This repository is the **paper source and PDF**, not a software deposit.
 
 Paper (v1.0): [The Governance Patch-Gap: Machine-Speed Exploit Discovery Against Human-Speed Legal Repair](https://zenodo.org/records/21910875)
@@ -38,6 +40,8 @@ PAPER_PATCHGAP-REL.pdf
 | `predictions.md` | P1–P3 operationalization |
 | `ZENODO.md` | Concept vs version DOI map |
 | `CITATION.cff` | Machine citation |
+| `CHANGELOG.md` | Version history |
+| `SEARCH-META.html` | Optional landing-page paste |
 | `results/claim-holds-brief.md` | Claim-gate intake status |
 
 ## Citation

@@ -7,6 +7,9 @@ Daniyel Yaacov Bilar, Chokmah LLC, chokmah-dyb@pm.me , ORCID: [0000-0002-9040-69
 
 v 1.0, August 12, 2026. AI is an automated vulnerability scanner for the rule of law: this paper formalizes the rate asymmetry between machine-speed exploit discovery and human-speed legal repair as the governance patch-gap
 
+DOI (concept, always latest): https://doi.org/10.5281/zenodo.21910874  
+This version: https://doi.org/10.5281/zenodo.21910875
+
 ## Abstract
 
 Legal systems governed by rule of law are, structurally, rule systems. Like any rule system, they contain gaps between specification and intent, concentrated in the deliberately under-specified provisions that legal philosophers call "open texture." Those gaps have always been exploitable, but exploitation was rate-limited by the cost of legal expertise and the size of the corpus to be searched. That rate-limit is now collapsing. This paper introduces the governance patch-gap: the ratio between the rate at which AI accelerates the discovery of exploitable legal ambiguities and the rate at which legislatures, courts, and treaty bodies can repair them. Using the Highly Optimized Tolerance (HOT) framework from complex-systems theory, we map legal systems onto designed artifacts whose optimization against anticipated disputes concentrates fragility at the boundaries of the specification. We define the patch-gap as a ratio of discovery rate to repair rate, identify a threat taxonomy (corporate optimizer, state actor, misaligned autonomous agent), distinguish exploit discovery from exploit execution as separate governance problems, and examine three defensive strategies and the structural limits that prevent any defense from closing the gap entirely. The paper closes with three falsifiable predictions for 2027 to 2028.

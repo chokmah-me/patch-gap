@@ -16,6 +16,7 @@
 ## External links
 
 - **GitHub:** https://github.com/chokmah-me/patch-gap
+- **Release:** https://github.com/chokmah-me/patch-gap/releases/tag/v1.0
 - **Record:** https://zenodo.org/records/21910875
 - **OSF:** none (new work; Zenodo is the public record)
 
