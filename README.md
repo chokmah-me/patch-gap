@@ -11,7 +11,7 @@ Five-audience TL;DRs: [`tldr.md`](tldr.md) (SME, practitioner, lay, decision-mak
 - Paper **concept** DOI (always latest PDF): [10.5281/zenodo.21910874](https://doi.org/10.5281/zenodo.21910874)
 - Paper **version** DOI (this PDF): [10.5281/zenodo.21910875](https://doi.org/10.5281/zenodo.21910875)
 
-There is **no** software concept DOI. Do not treat this repo as a computational companion.
+This repo has **no** software concept. The illustrative companion is a separate deposit: [patch-gap-hot-search](https://github.com/chokmah-me/patch-gap-hot-search), software concept [10.5281/zenodo.21918091](https://doi.org/10.5281/zenodo.21918091). It generates \(R_d\); \(G\) and \(S\) are outputs. It does not measure legal rates. Source draft v1.1 adds §4.5; the minted PDF is still v1.0.
 
 ## What is claimed / not claimed
 

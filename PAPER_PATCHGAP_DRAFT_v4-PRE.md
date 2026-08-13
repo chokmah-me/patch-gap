@@ -5,10 +5,11 @@
 
 Daniyel Yaacov Bilar, Chokmah LLC, chokmah-dyb@pm.me , ORCID: [0000-0002-9040-6914](https://orcid.org/0000-0002-9040-6914)
 
-v 1.0, August 12, 2026. AI is an automated vulnerability scanner for the rule of law: this paper formalizes the rate asymmetry between machine-speed exploit discovery and human-speed legal repair as the governance patch-gap
+v 1.1-draft, August 13, 2026 (source draft; minted PDF remains v1.0). AI is an automated vulnerability scanner for the rule of law: this paper formalizes the rate asymmetry between machine-speed exploit discovery and human-speed legal repair as the governance patch-gap
 
 DOI (concept, always latest): https://doi.org/10.5281/zenodo.21910874  
-This version: https://doi.org/10.5281/zenodo.21910875
+This minted PDF (v1.0): https://doi.org/10.5281/zenodo.21910875  
+v1.1 version DOI: pending remint under the same concept
 
 ## Abstract
 
@@ -159,6 +160,10 @@ The figures below are order-of-magnitude estimates, not measurements, and the pe
 The point is structural, not the precision of the exponents: the numerator is moving to machine speed, the denominator is not, and the transition happens in stages with distinct governance signatures.
 
 Three self-limiting dynamics prevent $G$ from growing without bound: (a) finite corpus, because the attack surface is large but bounded; (b) diminishing returns, because the easy loopholes are found first and each subsequent discovery requires more sophisticated search; and (c) legislative acceleration, because high-profile exploits trigger faster patching, as the Electoral Count Reform Act demonstrated. These limiters mean $G$ spikes during the initial AI-adoption phase and then decays toward some $G_\infty \geq 1$. But $S$, the stock of known-but-unpatched ambiguities, continues to grow as long as $G$ remains above 1. The open question is whether $G$ decays below 1 fast enough for $S$ to stabilize at a governable level. Adjacent formal systems already show the cost collapse; whether the legal penumbra follows at comparable speed is the unmeasured case.
+
+### 4.5 Illustrative companion
+
+A synthetic software companion generates $R_d$ from a budgeted, label-blind interface search on a HOT-designed rule graph; $G$ and the stocks $S_{\mathrm{known}}$ and $S_{\mathrm{active}}$ are outputs of that run, not inputs [33]. On that toy, three re-runnable checks hold: planted penumbra is recovered more often than under a same-size uniform-null labeling; the stock identity is obeyed while counted $R_d > R_p$; and sticky repair acceleration can drop $G$ while $S_{\mathrm{known}}$ is still rising. The companion does not estimate legal $R_d$ or $R_p$, does not support the heuristic exponents above, and does not test whether any statute book is HOT. Figures live in the software record.
 
 ## 5. Amplification Vectors
 
@@ -315,3 +320,5 @@ This work was produced with AI assistance . The author used Claude Opus 4.6 for 
 [31] M. J. Fischer, N. A. Lynch, M. S. Paterson, "Impossibility of Distributed Consensus with One Faulty Process," *Journal of the ACM*, vol. 32, no. 2, pp. 374-382, 1985. doi: 10.1145/3149.214121.
 
 [32] P. J. Cramer, J. Mollod, C. E. Rimmer, "Contract Law in the Age of Agentic AI: Who's Really Clicking 'Accept'?," Proskauer Rose LLP, New Media and Technology Law Blog, Apr. 2025. [Online]. Available: https://www.proskauer.com/blog/contract-law-in-the-age-of-agentic-ai-whos-really-clicking-accept
+
+[33] D. Y. Bilar, "patch-gap-hot-search: a synthetic HOT-searcher toy for the governance patch-gap," Zenodo, 2026. doi: 10.5281/zenodo.21918091. [Online]. Available: https://doi.org/10.5281/zenodo.21918091
