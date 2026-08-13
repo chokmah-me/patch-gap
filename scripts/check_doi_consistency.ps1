@@ -3,8 +3,8 @@
 $ErrorActionPreference = 'Stop'
 $Root = Split-Path -Parent $PSScriptRoot
 $ConceptId = '21910874'
-$CurrentVersionId = '21910875'
-$SupersededIds = @()
+$CurrentVersionId = '21924075'
+$SupersededIds = @('21910875')
 
 $files = Get-ChildItem -LiteralPath $Root -Recurse -File -Include *.md,*.cff,*.html |
   Where-Object { $_.FullName -notmatch '\\.git\\' }
@@ -25,5 +25,5 @@ if ($readme -notmatch $ConceptId) { $bad.Add('README.md missing concept id') }
 if ($readme -notmatch $CurrentVersionId) { $bad.Add('README.md missing current version id') }
 if ($zen -notmatch $ConceptId -or $zen -notmatch $CurrentVersionId) { $bad.Add('ZENODO.md missing concept/version') }
 if ($bad.Count) { $bad | ForEach-Object { Write-Host $_ }; exit 1 }
-Write-Host "ok concept=$ConceptId current=$CurrentVersionId superseded=none"
+Write-Host "ok concept=$ConceptId current=$CurrentVersionId superseded=$($SupersededIds -join ',')"
 exit 0

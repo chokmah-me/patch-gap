@@ -1,8 +1,9 @@
 # Changelog
 
-## unreleased — v1.1-draft — 2026-08-13
+## v1.1 — 2026-08-13 — Illustrative companion
 
-Source-only. §4.5 revised to name the software concept DOI and two companion figures (G–S split; searcher-dependent penumbra) without embedding plates. §4.4 “figures below” corrected to “regimes below.” Ref [33] remains the software concept `10.5281/zenodo.21918091`. Minted PDF, paper version DOI `21910875`, and site page remain v1.0 until remint.
+Zenodo paper version `10.5281/zenodo.21924075` (concept still `10.5281/zenodo.21910874`).
+Adds §4.5 pointing at software concept `10.5281/zenodo.21918091`: a toy that generates \(R_d\); \(G\) and the stocks are outputs, not legal measurements. No figures in the PDF. §4.4 “regimes below.” Supersedes `10.5281/zenodo.21910875`.
 
 ## v1.0 — 2026-08-12 — First preprint mint
 

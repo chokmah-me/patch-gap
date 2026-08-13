@@ -7,11 +7,11 @@ authors:
     given-names: Daniyel Yaacov
     orcid: "https://orcid.org/0000-0002-9040-6914"
     affiliation: "Chokmah LLC"
-date-released: "2026-08-12"
-version: "1.0"
+date-released: "2026-08-13"
+version: "1.1"
 license: CC-BY-4.0
-doi: "10.5281/zenodo.21910875"
-url: "https://doi.org/10.5281/zenodo.21910875"
+doi: "10.5281/zenodo.21924075"
+url: "https://doi.org/10.5281/zenodo.21924075"
 repository-code: "https://github.com/chokmah-me/patch-gap"
 keywords:
   - AI governance
@@ -29,9 +29,9 @@ preferred-citation:
       orcid: "https://orcid.org/0000-0002-9040-6914"
       affiliation: "Chokmah LLC"
   year: 2026
-  version: "1.0"
-  doi: "10.5281/zenodo.21910875"
-  url: "https://doi.org/10.5281/zenodo.21910875"
+  version: "1.1"
+  doi: "10.5281/zenodo.21924075"
+  url: "https://doi.org/10.5281/zenodo.21924075"
   publisher:
     name: Zenodo
   # Prefer concept DOI 10.5281/zenodo.21910874 when a reader wants "always latest".

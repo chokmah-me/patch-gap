@@ -4,14 +4,14 @@
 
 > Legal open texture was always exploitable; the bound was work factor. AI collapses discovery cost while repair stays on a legislative/judicial clock. This repository is the **paper source and PDF**, not a software deposit.
 
-Paper (v1.0): [The Governance Patch-Gap: Machine-Speed Exploit Discovery Against Human-Speed Legal Repair](https://zenodo.org/records/21910875)
+Paper (v1.1): [The Governance Patch-Gap: Machine-Speed Exploit Discovery Against Human-Speed Legal Repair](https://zenodo.org/records/21924075)
 
 Five-audience TL;DRs: [`tldr.md`](tldr.md) (SME, practitioner, lay, decision-maker, governance).
 
 - Paper **concept** DOI (always latest PDF): [10.5281/zenodo.21910874](https://doi.org/10.5281/zenodo.21910874)
-- Paper **version** DOI (this PDF): [10.5281/zenodo.21910875](https://doi.org/10.5281/zenodo.21910875)
+- Paper **version** DOI (this PDF): [10.5281/zenodo.21924075](https://doi.org/10.5281/zenodo.21924075)
 
-This repo has **no** software concept. The illustrative companion is a separate deposit: [patch-gap-hot-search](https://github.com/chokmah-me/patch-gap-hot-search), software concept [10.5281/zenodo.21918091](https://doi.org/10.5281/zenodo.21918091). It generates \(R_d\); \(G\) and \(S\) are outputs. It does not measure legal rates. Source draft v1.1 adds §4.5; the minted PDF is still v1.0.
+This repo has **no** software concept. The illustrative companion is a separate deposit: [patch-gap-hot-search](https://github.com/chokmah-me/patch-gap-hot-search), software concept [10.5281/zenodo.21918091](https://doi.org/10.5281/zenodo.21918091). It generates \(R_d\); \(G\) and \(S\) are outputs. It does not measure legal rates. v1.1 adds §4.5 (pointer only; no figures in the PDF).
 
 ## What is claimed / not claimed
 
@@ -48,6 +48,6 @@ PAPER_PATCHGAP-REL.pdf
 
 ## Citation
 
-Bilar, D. Y. (2026). *The Governance Patch-Gap: Machine-Speed Exploit Discovery Against Human-Speed Legal Repair* (v1.0). Zenodo. https://doi.org/10.5281/zenodo.21910874 (concept); https://doi.org/10.5281/zenodo.21910875 (this PDF)
+Bilar, D. Y. (2026). *The Governance Patch-Gap: Machine-Speed Exploit Discovery Against Human-Speed Legal Repair* (v1.1). Zenodo. https://doi.org/10.5281/zenodo.21910874 (concept); https://doi.org/10.5281/zenodo.21924075 (this PDF)
 
 License: CC BY 4.0.

@@ -1,15 +1,15 @@
-<p class="hebrew-epigraph" dir="rtl" lang="he">אִם יִרְצֶה הַשֵּׁם</p>
-<p class="hebrew-date" dir="rtl" lang="he">כ״ט בְּאָב ה׳תשפ״ו</p>
+<p class="hebrew-epigraph" dir="rtl" lang="he">אִם יִרְצֶה הַשֵּׁם</p> <p class="hebrew-date" dir="rtl" lang="he">כ״ט בְּאָב ה׳תשפ״ו</p>
 
 # The Governance Patch-Gap: Machine-Speed Exploit Discovery Against Human-Speed Legal Repair
 
 Daniyel Yaacov Bilar, Chokmah LLC, chokmah-dyb@pm.me , ORCID: [0000-0002-9040-6914](https://orcid.org/0000-0002-9040-6914)
 
-v 1.1-draft, August 13, 2026 (source draft; minted PDF remains v1.0). AI is an automated vulnerability scanner for the rule of law: this paper formalizes the rate asymmetry between machine-speed exploit discovery and human-speed legal repair as the governance patch-gap
+v 1.1, August 2026. adds §4.5, an illustrative software companion (concept 10.5281/zenodo.21918091 (https://doi.org/10.5281/zenodo.21918091)): a toy that generates R_d; G and the stocks are outputs, not legal measurements. No figures in the PDF.
 
-DOI (concept, always latest): https://doi.org/10.5281/zenodo.21910874  
-This minted PDF (v1.0): https://doi.org/10.5281/zenodo.21910875  
-v1.1 version DOI: pending remint under the same concept
+DOI (concept, always latest): https://doi.org/10.5281/zenodo.21910874
+This version (v1.1): https://doi.org/10.5281/zenodo.21924075
+
+This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0). https://creativecommons.org/licenses/by/4.0/
 
 ## Abstract
 
@@ -86,7 +86,7 @@ The **corporate optimizer** is a firm using AI to minimize tax exposure, maximiz
 
 The **state actor** exploits another jurisdiction's legal ambiguities for strategic advantage, routing around one jurisdiction's review process via another jurisdiction's authority (see Section 5.3 for examples). Its motivation is geopolitical. Its speed is moderate: state actors still operate through human diplomatic channels, though AI can accelerate identification of exploitable provisions. Its constraint is international norms and reciprocity.
 
-The **misaligned autonomous agent** is an AI system with a misspecified reward function that discovers regulatory loopholes as a byproduct of optimizing a business objective, with no human principal intending the exploit. This is the SocioHack scenario [9]. Its motivation is reward maximization. Its speed is machine speed. Its constraint is none, unless the deployment architecture includes human review of actions taken.
+The **misaligned autonomous agent** is an AI system with a misspecified reward function that discovers regulatory loopholes as a byproduct of optimizing a business objective, with no human principal intending the exploit. This is the SocioHack scenario [9]. Its motivation is reward maximization. Its speed is machine speed. Its constraint is architectural: whatever human-review, rate-limiting, or monitoring requirements the deployer imposes.
 
 Conflating these three classes produces bad policy. A disclosure requirement is effective against corporate optimizers (who can be compelled to disclose) and useless against misaligned agents (which have no principal to disclose to). Section 6 maps each defensive measure to the adversary classes it can reach.
 
@@ -120,12 +120,12 @@ The governance patch-gap is modeled on the verification bottleneck in AI code ge
 
 **Table 1.** The verification-bottleneck asymmetry between code and law. Discovery cost has collapsed for code and is collapsing for law; repair cost has not moved proportionally in either domain, and for law's penumbral provisions repair cannot be made formally verifiable at all (Section 4.2).
 
-| Dimension | Code | Law |
-|---|---|---|
-| Discovery cost | Collapsed (LLM code generation) | Collapsing (RL + legal corpus parsing) |
-| Repair cost | High (testing, review, formal verification) | Very high (legislative process, judicial review, treaty renegotiation) |
-| Patch latency | Days to weeks (software release cycle) | Months to decades (Electoral Count Reform Act: 2 years; treaty renegotiation: a decade or more) |
-| Patch completeness | Formally verifiable in principle | Not formally verifiable for penumbral provisions (see 4.2) |
+| Dimension          | Code                                        | Law                                                          |
+| ------------------ | ------------------------------------------- | ------------------------------------------------------------ |
+| Discovery cost     | Collapsed (LLM code generation)             | Collapsing (RL + legal corpus parsing)                       |
+| Repair cost        | High (testing, review, formal verification) | Very high (legislative process, judicial review, treaty renegotiation) |
+| Patch latency      | Days to weeks (software release cycle)      | Months to decades (Electoral Count Reform Act: 2 years; treaty renegotiation: a decade or more) |
+| Patch completeness | Formally verifiable in principle            | Not formally verifiable for penumbral provisions (see 4.2)   |
 
 ### 4.2 Engaging the computational-law objection
 
@@ -155,7 +155,7 @@ The regimes below are order-of-magnitude estimates, not measurements, and the pe
 
 **AI-assisted discovery, human execution ($G \approx 10^2$).** An RL agent parsing a regulatory corpus can flag on the order of one hundred candidate ambiguities per hour at near-zero marginal cost. Most of these are false positives, already-known items, or legally trivial findings. Conservative filtering, requiring that a flagged ambiguity be new, actionable, and non-obvious to a competent practitioner, reduces the raw output by roughly two orders of magnitude by way of illustration, leaving on the order of one actionable gap per week, or $R_d \approx 50$/year. The repair rate is unchanged from the pre-AI regime ($R_p \approx 0.5$/year): the same legislatures, the same courts, the same treaty bodies, operating at the same speed. $G \approx 100$. The stock of known-but-unpatched ambiguities grows linearly.
 
-**AI-assisted discovery, agentic execution ($G \approx 10^3$+).** Discovery rate stays at the level above, but execution latency drops from months (human lawyers structuring transactions) to hours (autonomous agents filing documents, executing trades, submitting regulatory comments). The effective patch-gap widens because exploits are consumed faster than they can be closed. The stock of actively exploited ambiguities grows, not just the stock of known ones.
+**AI-assisted discovery, agentic execution ($G \approx 10^3$+).** Discovery rate stays at the level above, but execution latency drops from months (human lawyers structuring transactions) to hours (autonomous agents filing documents, executing trades, submitting regulatory comments). The effective patch-gap widens because exploits are consumed faster than they can be closed. Denote $S_{\mathrm{known}}$ the stock of discovered-but-unpatched ambiguities and $S_{\mathrm{active}}$ the subset currently under exploitation. In this regime both grow, not just $S_{\mathrm{known}}$.
 
 The point is structural, not the precision of the exponents: the numerator is moving to machine speed, the denominator is not, and the transition happens in stages with distinct governance signatures.
 
@@ -163,9 +163,11 @@ Three self-limiting dynamics prevent $G$ from growing without bound: (a) finite 
 
 ### 4.5 Illustrative companion
 
-A synthetic software companion generates $R_d$ from a budgeted, label-blind interface search on a HOT-designed rule graph; $G$ and the stocks $S_{\mathrm{known}}$ and $S_{\mathrm{active}}$ are outputs of that run, not inputs [33]. Cite the software concept DOI (always the latest zip). On that toy, three re-runnable checks hold: planted penumbra is recovered more often than under a same-size uniform-null labeling; the stock identity is obeyed while counted $R_d > R_p$; and sticky repair acceleration can drop $G$ while $S_{\mathrm{known}}$ is still rising.
+A synthetic software companion [33] constructs a small HOT-style rule graph: a dense, well-connected core (the settled provisions) surrounded by a sparse periphery of bridge edges (the penumbral provisions where the specification is incomplete). A budgeted searcher, given a fixed number of queries and no access to the core/penumbra labels, ranks nodes by a local heuristic and reports candidate vulnerabilities. The searcher's discovery rate $R_d$, the patch-gap $G$, and the stocks $S_{\mathrm{known}}$ and $S_{\mathrm{active}}$ are outputs of the run, not inputs.
 
-Labeled figures live in the software record and are not reproduced here. Two of them earn a mention. One shows the $G$–$S$ split of Section 4.4 as a pair of stacked time series (no dual axis): after a salience-triggered rise in $R_p$, $G$ can fall while $S_{\mathrm{known}}$ is still increasing. Another compares searchers on the *same* HOT graphs: a neighborhood-spill rank recovers planted bridges; a degree-greedy rank recovers the dense core instead. The toy's penumbra result is therefore searcher-dependent. It does not show that statutes are HOT, and it does not show that an arbitrary optimizer will find Hart's penumbra.
+Three re-runnable checks hold on that toy. First, the searcher recovers planted penumbral nodes more often than a same-size uniform-null labeling would predict. Second, the stock identity $dS/dt = R_d - R_p$ is obeyed while counted $R_d > R_p$. Third, a sticky repair-acceleration rule (faster patching after high-salience exploits) can drop $G$ while $S_{\mathrm{known}}$ is still rising.
+
+The companion repository includes labeled figures; two earn a mention. One shows the $G$-$S$ split of Section 4.4 as a pair of stacked time series (no dual axis): after a salience-triggered rise in $R_p$, $G$ can fall while $S_{\mathrm{known}}$ is still increasing. Another compares searchers on the same HOT graphs: a neighborhood-spill rank (scoring each node by how mixed its neighbor-modules are) recovers planted bridges, while a degree-greedy rank recovers the dense core instead. The toy's penumbra result is therefore searcher-dependent. It does not show that statutes are HOT, and it does not show that an arbitrary optimizer will find Hart's penumbra.
 
 The companion does not estimate legal $R_d$ or $R_p$, does not support the heuristic exponents above, and does not test whether any statute book is HOT.
 
@@ -257,7 +259,9 @@ The question is not whether AI will be used to exploit legal systems; Section 3.
 
 ## AI Utilization Statement
 
-This work was produced with AI assistance . The author used Claude Opus 4.6 for drafting and structural editing, and Kimi 2.6 and Grok 4.6 for GAN-like adversarial reviews. All substantive claims, analytical decisions, structural choices, and final editorial judgments were made by the author. AI-generated content was reviewed and corrected by the author before inclusion. 
+This work was produced with AI assistance. The author used Claude Opus 4.6 for drafting and structural editing, and Kimi 2.6 and Grok 4.6 for independent adversarial editorial reviews. All substantive claims, analytical decisions, structural choices, and final editorial judgments were made by the author. AI-generated content was reviewed and corrected by the author before inclusion. No AI system is listed as a co-author.
+
+Affiliation: Chokmah LLC, Norwich, VT. Contact: chokmah-dyb@pm.me.
 
 ## References
 

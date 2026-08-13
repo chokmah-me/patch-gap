@@ -1,7 +1,7 @@
 # TL;DR summaries (5 audiences)
 
-Companion to: *The Governance Patch-Gap: Machine-Speed Exploit Discovery Against Human-Speed Legal Repair* (v1.0).  
-Concept DOI: https://doi.org/10.5281/zenodo.21910874 · this PDF: https://doi.org/10.5281/zenodo.21910875
+Companion to: *The Governance Patch-Gap: Machine-Speed Exploit Discovery Against Human-Speed Legal Repair* (v1.1).  
+Concept DOI: https://doi.org/10.5281/zenodo.21910874 · this PDF: https://doi.org/10.5281/zenodo.21924075
 
 ---
 
