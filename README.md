@@ -6,6 +6,8 @@
 
 Paper (v1.0): [The Governance Patch-Gap: Machine-Speed Exploit Discovery Against Human-Speed Legal Repair](https://zenodo.org/records/21910875)
 
+Five-audience TL;DRs: [`tldr.md`](tldr.md) (SME, practitioner, lay, decision-maker, governance).
+
 - Paper **concept** DOI (always latest PDF): [10.5281/zenodo.21910874](https://doi.org/10.5281/zenodo.21910874)
 - Paper **version** DOI (this PDF): [10.5281/zenodo.21910875](https://doi.org/10.5281/zenodo.21910875)
 
