@@ -149,7 +149,7 @@ To make the definition operational, consider three heuristic regimes.
 
 ### 4.4 Illustrative dynamics
 
-The figures below are order-of-magnitude estimates, not measurements, and the per-regime rates are first converted to a common annual unit before the ratio is taken; treat the powers of ten as heuristic labels for the regime, not as a computed value of $G$. Three regimes correspond to three stages of AI adoption in legal-system exploitation.
+The regimes below are order-of-magnitude estimates, not measurements, and the per-regime rates are first converted to a common annual unit before the ratio is taken; treat the powers of ten as heuristic labels for the regime, not as a computed value of $G$. Three regimes correspond to three stages of AI adoption in legal-system exploitation.
 
 **Pre-AI equilibrium ($G \approx 2$).** Both rates were measured in the same units: years of expert effort. A senior tax attorney or regulatory specialist identifies on the order of one exploitable ambiguity per year ($R_d \approx 1$/year). Congress patches roughly one major statutory gap per legislative session, about one every two years ($R_p \approx 0.5$/year). Courts resolve roughly one interpretive gap per circuit per five to ten years. Discovery was slow. Repair was slow. $S$ grew, but slowly enough that the system appeared stable.
 
@@ -163,7 +163,11 @@ Three self-limiting dynamics prevent $G$ from growing without bound: (a) finite 
 
 ### 4.5 Illustrative companion
 
-A synthetic software companion generates $R_d$ from a budgeted, label-blind interface search on a HOT-designed rule graph; $G$ and the stocks $S_{\mathrm{known}}$ and $S_{\mathrm{active}}$ are outputs of that run, not inputs [33]. On that toy, three re-runnable checks hold: planted penumbra is recovered more often than under a same-size uniform-null labeling; the stock identity is obeyed while counted $R_d > R_p$; and sticky repair acceleration can drop $G$ while $S_{\mathrm{known}}$ is still rising. The companion does not estimate legal $R_d$ or $R_p$, does not support the heuristic exponents above, and does not test whether any statute book is HOT. Figures live in the software record.
+A synthetic software companion generates $R_d$ from a budgeted, label-blind interface search on a HOT-designed rule graph; $G$ and the stocks $S_{\mathrm{known}}$ and $S_{\mathrm{active}}$ are outputs of that run, not inputs [33]. Cite the software concept DOI (always the latest zip). On that toy, three re-runnable checks hold: planted penumbra is recovered more often than under a same-size uniform-null labeling; the stock identity is obeyed while counted $R_d > R_p$; and sticky repair acceleration can drop $G$ while $S_{\mathrm{known}}$ is still rising.
+
+Labeled figures live in the software record and are not reproduced here. Two of them earn a mention. One shows the $G$–$S$ split of Section 4.4 as a pair of stacked time series (no dual axis): after a salience-triggered rise in $R_p$, $G$ can fall while $S_{\mathrm{known}}$ is still increasing. Another compares searchers on the *same* HOT graphs: a neighborhood-spill rank recovers planted bridges; a degree-greedy rank recovers the dense core instead. The toy's penumbra result is therefore searcher-dependent. It does not show that statutes are HOT, and it does not show that an arbitrary optimizer will find Hart's penumbra.
+
+The companion does not estimate legal $R_d$ or $R_p$, does not support the heuristic exponents above, and does not test whether any statute book is HOT.
 
 ## 5. Amplification Vectors
 
