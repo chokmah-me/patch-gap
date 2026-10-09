@@ -1,0 +1,16 @@
+{
+  "kind": "paper-v1.2-reserved",
+  "conceptrecid": "21910874",
+  "conceptdoi": "10.5281/zenodo.21910874",
+  "superseded_version": "10.5281/zenodo.21924075",
+  "draft_id": 23262565,
+  "reserved_version_doi": "10.5281/zenodo.23262565",
+  "reserved_recid": 23262565,
+  "published": false,
+  "version": "1.2",
+  "source": "PAPER_PATCHGAP_DRAFT_v6.md",
+  "pdf": "PAPER_PATCHGAP-REL.pdf",
+  "cites_software": "10.5281/zenodo.23262639",
+  "draft_html": "https://zenodo.org/deposit/23262565",
+  "note": "Record URL 404 until published. Reserved 2026-10-09."
+}

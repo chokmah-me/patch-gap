@@ -4,7 +4,7 @@
 
 Daniyel Yaacov Bilar, Chokmah LLC, chokmah-dyb@pm.me , ORCID: [0000-0002-9040-6914](https://orcid.org/0000-0002-9040-6914)
 
-v 1.2, October 2026. Updates the evidence in Sections 3.4, 4.1, 4.4, 5.1, 5.3, 6.1, and 6.4 to October 2026, corrects the Section 4.4 filter arithmetic, adds prediction status lines to Section 7, and adds a live case (Section 5.4), and points to companion gates in software v0.2.0 (version 10.5281/zenodo.23262639; concept 10.5281/zenodo.21918091).
+*v 1.2, October 2026. Updates the evidence in Sections 3.4, 4.1, 4.4, 5.1, 5.3, 6.1, and 6.4 to October 2026, corrects the Section 4.4 filter arithmetic, adds prediction status lines to Section 7, and adds a live case (Section 5.4), and points to companion gates in software v0.2.0 (version 10.5281/zenodo.23262639; concept 10.5281/zenodo.21918091).*
 
 DOI (concept, always latest): https://doi.org/10.5281/zenodo.21910874  
 This version (v1.2): https://doi.org/10.5281/zenodo.23262565

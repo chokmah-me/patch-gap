@@ -1,0 +1,107 @@
+{
+  "title": "The Governance Patch-Gap: Machine-Speed Exploit Discovery Against Human-Speed Legal Repair",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "publication_date": "2026-10-09",
+  "version": "1.2",
+  "language": "eng",
+  "imprint_publisher": "Zenodo",
+  "creators": [
+    {
+      "name": "Bilar, Daniyel Yaacov",
+      "affiliation": "Chokmah LLC",
+      "orcid": "0000-0002-9040-6914"
+    }
+  ],
+  "keywords": [
+    "AI governance",
+    "open texture",
+    "reward hacking",
+    "regulatory arbitrage",
+    "highly optimized tolerance",
+    "governance patch-gap",
+    "legal exploit discovery"
+  ],
+  "dates": [
+    {
+      "type": "updated",
+      "start": "2026-10-09",
+      "description": "v1.2: evidence update to October 2026; §4.4 filter arithmetic; §5.4 BCBSA live case; prediction status; companion gates v0.2.0."
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21924075",
+      "relation": "isNewVersionOf",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.21918091",
+      "relation": "isSupplementedBy",
+      "scheme": "doi",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.5281/zenodo.23262639",
+      "relation": "isSupplementedBy",
+      "scheme": "doi",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/chokmah-me/patch-gap",
+      "relation": "isSupplementedBy",
+      "scheme": "url",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://osf.io/w96xz/",
+      "relation": "isIdenticalTo",
+      "scheme": "url",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://chokmah.me/research/the-governance-patch-gap-machine-speed-exploit-discovery-aga-23262565/",
+      "relation": "isDocumentedBy",
+      "scheme": "url",
+      "resource_type": "publication-other"
+    },
+    {
+      "identifier": "10.5281/zenodo.20190801",
+      "relation": "cites",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.20114610",
+      "relation": "cites",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.19368682",
+      "relation": "cites",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.48550/arXiv.2606.04075",
+      "relation": "cites",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.48550/arXiv.2507.05558",
+      "relation": "cites",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
+    }
+  ],
+  "references": [
+    "AI is an automated vulnerability scanner for the rule of law: this paper formalizes the rate asymmetry between machine-speed exploit discovery and human-speed legal repair as the governance patch-gap"
+  ],
+  "notes": "v1.2 (2026-10-09) updates evidence, corrects §4.4 filter arithmetic, adds §5.4 BCBSA live case and prediction status, and points to companion software v0.2.0 (10.5281/zenodo.23262639; concept 10.5281/zenodo.21918091). Prefer concept DOI 10.5281/zenodo.21910874 for always-latest PDF. Prior version 10.5281/zenodo.21924075 (v1.1) is superseded. OSF archive node osf.io/w96xz is a legacy mirror; Zenodo is canonical. License CC BY 4.0. AI utilization: drafted and structurally edited with Claude; adversarial source-verification with Kimi K3; Grok for release surfaces. All substantive claims and final judgments are the author's.",
+  "description": "<p><strong>1. Artifact claim.</strong> This deposit is the v1.2 preprint PDF of <em>The Governance Patch-Gap: Machine-Speed Exploit Discovery Against Human-Speed Legal Repair</em>. It defines the governance patch-gap as the rate ratio <em>G</em> = <em>R</em><sub>d</sub>/<em>R</em><sub>p</sub> and a stock <em>S</em> with d<em>S</em>/d<em>t</em> = <em>R</em><sub>d</sub> − <em>R</em><sub>p</sub>: AI collapses the cost of discovering legal open texture while repair stays on a legislative clock. Prefer concept DOI <a href=\"https://doi.org/10.5281/zenodo.21910874\">10.5281/zenodo.21910874</a> for always-latest PDF.</p><p><strong>2. Problem / scientific context.</strong> Legal systems are Highly Optimized Tolerance (HOT) artifacts: drafters optimize against anticipated disputes, so residual fragility concentrates in Hart's penumbra (open texture), not in the core. Three threat actors (corporate optimizer, state actor, misaligned autonomous agent) occupy that penumbra. Discovery and execution are separate governance problems. <em>G</em> is a definition, not a fitted dynamical model; regime labels (<em>G</em> ≈ 2, 10<sup>2</sup>, 10<sup>3</sup>+) are heuristics.</p><p><strong>3. Contents.</strong> Single PDF <code>PAPER_PATCHGAP-REL.pdf</code>. Markdown source lives at <a href=\"https://github.com/chokmah-me/patch-gap\">github.com/chokmah-me/patch-gap</a>. No simulation code in this deposit. Companion software is a <em>separate</em> Zenodo concept (<a href=\"https://doi.org/10.5281/zenodo.21918091\">10.5281/zenodo.21918091</a>; this zip <a href=\"https://doi.org/10.5281/zenodo.23262639\">10.5281/zenodo.23262639</a>).</p><p><strong>4. Reproduce.</strong> The PDF is not executable. Definitions and §4.4 arithmetic are gated in the companion repository (<code>python run_all_gates.py</code>). Five-audience TL;DRs live in <code>tldr.md</code>.</p><p><strong>5. Relation to other records.</strong> Paper concept <a href=\"https://doi.org/10.5281/zenodo.21910874\">10.5281/zenodo.21910874</a>. This version supersedes v1.1 <a href=\"https://doi.org/10.5281/zenodo.21924075\">10.5281/zenodo.21924075</a>. OSF archive node <a href=\"https://osf.io/w96xz/\">osf.io/w96xz</a> is a legacy mirror; Zenodo is canonical. Catalog: <a href=\"https://chokmah.me/research/the-governance-patch-gap-machine-speed-exploit-discovery-aga-23262565/\">chokmah.me</a>.</p><p><strong>6. Limitations / non-claims.</strong> <em>G</em> is a definition. Regime magnitudes are order-of-magnitude heuristics. SocioHack is a sandbox preprint without independent replication (judge κ = 0.55 in v1, 0.86 in v3 under a different protocol). A1/VERITE is 36 already-vulnerable contracts. Rice / FLP / attestation in §6.4 are analogical extensions. The BCBSA hospital-coding case in §5.4 is an auxiliary signal, not a resolution of Prediction 2: $942M is the total two-year figure, of which $653M came from 55k+ secondary-diagnosis cases; attribution is from a payer association, not an enforcement record.</p><p><strong>7. This version (v1.2, 2026-10-09).</strong> Evidence update in §§3.4, 4.1, 4.4, 5.1, 5.3, 6.1, 6.4 (live hallucination-database totals; Project Glasswing first public measurement of the code column; SpaceXAI/xAI order; Estonia gambling-tax core slip stated precisely). §4.4 filter arithmetic corrected (four orders of magnitude, not two). New §5.4 live case (BCBSA coding-intensity analyses). Prediction status lines in §7 (P1–P3 all open as of October 2026). Companion gates in software v0.2.0. Hebrew date כ״ז תשרי תשפ״ז. CC BY 4.0 on the Zenodo record.</p><p><strong>8. Citation.</strong> Prefer concept DOI 10.5281/zenodo.21910874. Pin this PDF with 10.5281/zenodo.23262565.</p><p>---------------------------<br><br><strong>This version (v1.2, 2026-10-09).</strong> <em>House PDF. G is a definition. P1–P3 open. Companion software is a separate concept.<br><br></em>----------------------------</p><h2>TL;DRs for different audiences</h2><p><strong>For the SME.</strong><br>Legal systems are HOT artifacts: residual fragility concentrates in Hart's penumbra. The object is a rate ratio <em>G</em> = <em>R</em><sub>d</sub>/<em>R</em><sub>p</sub> and a stock <em>S</em> with d<em>S</em>/d<em>t</em> = <em>R</em><sub>d</sub> − <em>R</em><sub>p</sub>; <em>G</em> is a definition, not a fitted dynamical model. Regime labels are heuristics. SocioHack is unreplicated; A1/VERITE is 36 already-vulnerable contracts. Rice / FLP / attestation in §6.4 are analogical. The load-bearing claim that survives if SocioHack fails is the work-factor collapse in adjacent formal systems plus the discovery/execution split.</p><p><strong>For the interested layman.</strong><br>Laws have always had gray zones on purpose — words like \"reasonable\" so judges can handle new cases. Finding those gray zones used to be slow and expensive. AI can search the whole tax code and regulation pile cheaply and flag gaps nobody has noticed. Passing a fix still takes months to years. The paper names that mismatch the governance patch-gap: machines find holes faster than legislatures and courts can close them. The holes were always there. What changed is the cost to find them.</p><p><strong>For the practitioner.</strong><br>Treat \"AI found a loophole\" and \"an agent filed on it\" as different problems. Discovery is a tool-governance issue (access, disclosure, audit of comment corpora). Execution is an agency-and-liability issue (who is the principal; HITL above a dollar / classification / cross-border threshold). Disclosure mandates reach corporate repeat players and miss unsupervised agents. Do not spend the policy budget on formalizing \"reasonable\"; Catala-class work shrinks the core, not the penumbra. Immediate moves: require AI-use disclosure in filings and litigation; log agent actions that change regulatory classification.</p><p><strong>For the decision maker.</strong><br>This is not a model-refusal problem and will not be closed by a better system prompt. The asset at risk is the <em>stock</em> of known-but-unpatched legal ambiguities. Adjacent formal systems (smart-contract exploit agents at $0.01–$3.59/attempt; attacker break-even ~$6k vs defender ~$60k) already show the cost collapse. Near-term: rate-limit execution (HITL, disclosure). Do not buy \"formally verified law\" as a complete close.</p><p><strong>For governance.</strong><br>Every new AI rule written in open-textured natural language is another search surface. Three defenses, all bounded: (1) AI red-team of draft text before enactment — useful, not exhaustive; (2) formal methods — core only; (3) rate-limits — buy time, do not close <em>G</em>. Conflating corporate optimizers, state arbitrage, and unsupervised agents produces the wrong instrument. Falsifiers: AI-authored substantive rulemaking comments by end-2027; an attributed in-production exploit by end-2027; two governments or the EU publishing legislative red-team reports by mid-2028. All three remain open as of October 2026.</p>"
+}
