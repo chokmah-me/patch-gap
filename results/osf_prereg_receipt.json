@@ -1,0 +1,18 @@
+{
+  "guid": "ag8zh",
+  "url": "https://osf.io/ag8zh/",
+  "draft_id": "6ac916ba06384f3020482672",
+  "schema": "Theory-Based Predictions",
+  "schema_id": "697b72e611a8e98484c61367",
+  "submitted": "2026-10-09T16:32:08.217662Z",
+  "public": false,
+  "pending_registration_approval": true,
+  "expected_doi": "10.17605/OSF.IO/AG8ZH",
+  "article_doi": "10.5281/zenodo.23262565",
+  "files": [
+    "osf-prereg-p1-p3.pdf",
+    "osf-prereg-p1-p3.md",
+    "predictions.json"
+  ],
+  "note": "OSF holds the registration private until admin email approval or 48 hours. No new project child under 5jefh."
+}

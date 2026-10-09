@@ -40,7 +40,7 @@ PAPER_PATCHGAP-REL.pdf
 | `PAPER_PATCHGAP-REL.pdf` | Minted PDF (Zenodo file) |
 | `PAPER_PATCHGAP_DRAFT_v6.md` | Source for this version (v1.2) |
 | `PAPER_PATCHGAP_DRAFT_v5-PRE.md`, `PAPER_PATCHGAP_DRAFT_v4-PRE.md` | Earlier sources (v1.2-draft, v1.1) |
-| `predictions.md` | P1–P3 operationalization |
+| `predictions.md` | P1–P3 operationalization; OSF registration https://osf.io/ag8zh/ |
 | `ZENODO.md` | Concept vs version DOI map |
 | `CITATION.cff` | Machine citation |
 | `CHANGELOG.md` | Version history |
