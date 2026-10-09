@@ -13,6 +13,7 @@ Changes from the v1.2-draft (`PAPER_PATCHGAP_DRAFT_v5-PRE.md`) after the Kimi K3
 - §5.4 (new): BCBSA analyses of AI coding tools and hospital claims as a live case, with source-interest and causality caveats.
 - §6.1: Estonia error stated precisely (skill games without games of chance; fix effective March 1).
 - §7: P2 auxiliary signal.
+- §5.4 (Kimi K3 round 2): $942M is the total; $653M of it came from the secondary-diagnosis cases. Anemia/transfusion comparison added; the dispute is framed as over the open-textured term; autonomous vs coder-reviewed tools distinguished. March 2026 maternity figure dropped.
 
 v1.2-draft notes (carried):
 
