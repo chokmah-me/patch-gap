@@ -1,10 +1,10 @@
 {
-  "record_id": 21924075,
-  "doi": "10.5281/zenodo.21924075",
+  "id": 23262565,
+  "doi": "10.5281/zenodo.23262565",
   "conceptdoi": "10.5281/zenodo.21910874",
   "conceptrecid": "21910874",
-  "state": "done",
-  "html": "https://zenodo.org/records/21924075",
-  "version": "1.1",
-  "superseded": "10.5281/zenodo.21910875"
+  "version": "1.2",
+  "pdf_bytes": 230948,
+  "url": "https://zenodo.org/records/23262565",
+  "state": "done"
 }
