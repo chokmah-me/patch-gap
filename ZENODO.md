@@ -20,7 +20,7 @@
 - **GitHub:** https://github.com/chokmah-me/patch-gap
 - **Release:** https://github.com/chokmah-me/patch-gap/releases/tag/v1.2
 - **Record:** https://zenodo.org/records/23262565
-- **OSF:** none (new work; Zenodo is the public record)
+- **OSF (legacy mirror):** https://osf.io/w96xz/ — Zenodo is canonical.
 - **Companion software (separate concept):** https://doi.org/10.5281/zenodo.21918091 (v0.2.0: https://doi.org/10.5281/zenodo.23262639) — not this deposit
 
 ## Citation
