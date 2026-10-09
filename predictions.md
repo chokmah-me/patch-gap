@@ -25,5 +25,5 @@ P1 sharpened in v1.2-draft (before any qualifying evidence, and above the level 
 | ID | Status | Evidence |
 |----|--------|----------|
 | P1 | open | Technology Policy Institute, 2026-02-05: two FCC proceedings, 2 of 144 comments (about 1.4%) fully AI-generated, 13 with some AI signal. Below threshold. |
-| P2 | open | No qualifying case. Near miss: Blair-Stanek et al. (AAAI-26; Tax Notes, 2025-11-17), an LLM-generated tax strategy from researchers, not a firm acting on it. |
+| P2 | open | No qualifying case. Near miss: Blair-Stanek et al. (AAAI-26; Tax Notes, 2025-11-17), an LLM-generated tax strategy from researchers, not a firm acting on it. Auxiliary signal (tracked, not resolving): BCBSA, 2026-09-24, attributes a hospital coding-intensity shift (37% to 40% complex cases, about $942M over two years) to AI revenue-cycle tools; payer association, not an enforcement record. |
 | P3 | open | Estonia: civic bill-scanning prototype after the 2025-12 casino-tax drafting slip, no official deployment or public reports. Italy, Chamber of Deputies: AI checks against drafting standards, not red-teaming. |

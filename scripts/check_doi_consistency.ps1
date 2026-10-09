@@ -1,20 +1,22 @@
 #Requires -Version 7.0
-# Guard live cite targets. First mint: no superseded version IDs.
+# Guard live cite targets. Scans tracked files only, so scratch files cannot trip it.
 $ErrorActionPreference = 'Stop'
 $Root = Split-Path -Parent $PSScriptRoot
 $ConceptId = '21910874'
-$CurrentVersionId = '21924075'
-$SupersededIds = @('21910875')
+$CurrentVersionId = '23262565'
+$SupersededIds = @('21910875', '21924075')
+# Earlier paper sources are archival: they correctly cite the version they were written for.
+$HistoricalFiles = @('ZENODO.md', 'CHANGELOG.md', 'PAPER_PATCHGAP_DRAFT_v4-PRE.md', 'PAPER_PATCHGAP_DRAFT_v5-PRE.md')
 
-$files = Get-ChildItem -LiteralPath $Root -Recurse -File -Include *.md,*.cff,*.html |
-  Where-Object { $_.FullName -notmatch '\\.git\\' }
+$files = git -C $Root ls-files -- '*.md' '*.cff' '*.html' |
+  ForEach-Object { Get-Item -LiteralPath (Join-Path $Root $_) }
 
 $bad = [System.Collections.Generic.List[string]]::new()
 foreach ($f in $files) {
   $t = Get-Content -LiteralPath $f.FullName -Raw -ErrorAction SilentlyContinue
   if (-not $t) { continue }
   foreach ($id in $SupersededIds) {
-    if ($t -match [regex]::Escape($id) -and $f.Name -ne 'ZENODO.md' -and $f.Name -ne 'CHANGELOG.md') {
+    if ($t -match [regex]::Escape($id) -and $HistoricalFiles -notcontains $f.Name) {
       $bad.Add("$($f.Name): superseded id $id in live surface")
     }
   }

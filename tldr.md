@@ -1,13 +1,13 @@
 # TL;DR summaries (5 audiences)
 
-Companion to: *The Governance Patch-Gap: Machine-Speed Exploit Discovery Against Human-Speed Legal Repair* (v1.1).  
-Concept DOI: https://doi.org/10.5281/zenodo.21910874 · this PDF: https://doi.org/10.5281/zenodo.21924075
+Companion to: *The Governance Patch-Gap: Machine-Speed Exploit Discovery Against Human-Speed Legal Repair* (v1.2).  
+Concept DOI: https://doi.org/10.5281/zenodo.21910874 · this PDF: https://doi.org/10.5281/zenodo.23262565
 
 ---
 
 ## For the SME (legal theory / AI safety / complexity)
 
-Legal systems are HOT artifacts: drafters optimize against anticipated disputes, so residual fragility concentrates in Hart's penumbra (open texture), not in the core. The paper's object is a rate ratio \(G = R_d/R_p\) and a stock \(S\) with \(dS/dt = R_d - R_p\); \(G\) is a definition, not a fitted dynamical model. Regime labels (\(G \approx 2\), \(10^2\), \(10^3+\)) are heuristics. SocioHack is an unreplicated sandbox (\(\kappa = 0.55\)); A1/VERITE is 36 already-vulnerable contracts. Rice / FLP / attestation in §6.4 are analogical extensions, not a derivation that courts instantiate those models. The load-bearing claim that survives if SocioHack fails is the work-factor collapse in adjacent formal systems plus the discovery/execution split.
+Legal systems are HOT artifacts: drafters optimize against anticipated disputes, so residual fragility concentrates in Hart's penumbra (open texture), not in the core. The paper's object is a rate ratio \(G = R_d/R_p\) and a stock \(S\) with \(dS/dt = R_d - R_p\); \(G\) is a definition, not a fitted dynamical model. Regime labels (\(G \approx 2\), \(10^2\), \(10^3+\)) are heuristics. SocioHack is a sandbox preprint without independent replication (judge \(\kappa = 0.55\) in v1, 0.86 in v3 under a different protocol); A1/VERITE is 36 already-vulnerable contracts. Rice / FLP / attestation in §6.4 are analogical extensions, not a derivation that courts instantiate those models. The load-bearing claim that survives if SocioHack fails is the work-factor collapse in adjacent formal systems plus the discovery/execution split.
 
 ## For the practitioner (counsel / CISO / compliance)
 
