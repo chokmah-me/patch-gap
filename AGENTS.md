@@ -1,26 +1,27 @@
 # AGENTS.md — patch-gap
 
-## What this is
-AI lowers the cost of finding legal open texture while repair stays on a legislative clock. The paper defines the patch-gap G = Rd/Rp and stock S, and states three 2027 to 2028 predictions.
+Paper source and PDF for *The Governance Patch-Gap*. Not a software deposit. The toy that generates \(R_d\) lives in `patch-gap-hot-search`.
 
-## Layout (top level)
-- `CHANGELOG.md`
-- `CITATION.cff`
-- `LICENSE`
-- `PAPER_PATCHGAP-REL.pdf`
-- `PAPER_PATCHGAP_DRAFT_v4-PRE.md`
-- `PAPER_PATCHGAP_DRAFT_v5-PRE.md`
-- `PAPER_PATCHGAP_DRAFT_v6.md`
-- `README.md`
-- `SEARCH-META.html`
-- `ZENODO.md`
+## Commands
+
+No simulation to re-run. The PDF is the artifact.
+
+```text
+PAPER_PATCHGAP_DRAFT_v6.md
+PAPER_PATCHGAP-REL.pdf
+```
+
+`results/claim-holds-brief.md` records computational-claim-gate **blocked at intake** (nothing executable declared). That is the correct status here.
 
 ## Work rules
-- Work from the README first; it is the canonical description of purpose, layout, and any build or verify commands.
-- Do not change verdicts, locked data tables, or published artifacts without the user's explicit word.
-- Keep changes small and receipt-backed: name the commit or artifact a claim rests on.
 
-## Canonical docs
-- `README.md` — purpose, usage, and status.
-- `CITATION.cff` — how to cite the associated paper/record.
-- `LICENSE` — terms of use.
+- \(G = R_d / R_p\) is a definition, not a fitted dynamical model. §4.4 magnitudes are heuristics.
+- Do not paste software figures into this PDF. §4.5 is a pointer only.
+- SocioHack, Rice, FLP, and attestation in the paper are analogical, not proofs that courts instantiate those models.
+
+## Pointers
+
+- `README.md` — claims / non-claims and DOI map
+- `predictions.md` — P1–P3 operationalization (OSF `ag8zh`)
+- `tldr.md` — five-audience summaries
+- `ZENODO.md` — concept vs version
